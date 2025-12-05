@@ -892,7 +892,7 @@ export default function KoopsPrototype() {
   );
 
   return (
-    <div className="w-full h-screen font-sans text-gray-800 overflow-hidden bg-gray-50">
+    <div className="w-full min-h-screen font-sans text-gray-800 overflow-hidden bg-gray-50">
       {currentScreen === "landing" && <LandingPage />}
       {currentScreen === "step1" && (
         <AssessmentScreen
